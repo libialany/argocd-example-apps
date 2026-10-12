@@ -2,9 +2,11 @@ apiVersion: v2
 name: falco
 description: A Helm chart for falco deployment
 type: application
-version: 9.0.1
-appVersion: "9.0.1"
+#version: 9.0.1
+version: 9.2.0
+appVersion: "0.45.0"
+#appVersion: "9.0.1"
 dependencies:
   - name: falco
-    version:  "9.0.1"
+    version:  "9.2.1"
     repository:  "https://falcosecurity.github.io/charts"
